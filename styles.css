@@ -1,0 +1,73 @@
+/* Gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header untuk judul dan logo */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    width: 400px;                  /* Mengatur ukuran logo */
+    height: auto;                  /* Menjaga proporsi gambar */
+}
+
+.logo-left {
+    margin-left: 70px;             /* Memberi jarak dari sisi kiri */
+}
+
+.logo-right {
+    margin-right: 70px;            /* Memberi jarak dari sisi kanan */
+}
+
+.title {
+    text-align: center;            /* Mengatur teks judul di tengah */
+    flex-grow: 1;                  /* Membuat judul mengisi ruang yang tersisa */
+}
+
+.title h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.title h2 {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Tabel */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+th div, td div {
+    margin: 5px 0;
+}
