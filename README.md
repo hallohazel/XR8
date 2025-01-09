@@ -14,8 +14,3 @@ Pada tahap ini, saya masih belajar mengatur posisi dan ukuran elemen dengan CSS.
 ## Bahasa yang digunakan
 - **HTML**: Untuk struktur halaman.
 - **CSS**: Untuk desain dan tata letak.
-
-## Coba buka
-1. Clone repository;
-   ```bash
-   git clone https://github.com/hallohazel/XR8.git
